@@ -12,9 +12,10 @@ a {
   text-decoration: none;
   color: #003153;
   font-weight: bold;
-}
-a:hover {
-  color: #b96d34;
+
+  &:hover {
+    color: #b96d34;
+  }
 }
 
 nav,
@@ -30,11 +31,12 @@ nav,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-}
-.footer .footer-left {
-  display: flex;
-  gap: 20px;
+  flex-wrap: wrap; // Ako zatreba na manjim ekranima
+
+  .footer-left {
+    display: flex;
+    gap: 20px; // razmak između itema
+  }
 }
 
 .location-card {
@@ -43,14 +45,14 @@ nav,
   border-radius: 10px;
   border: 1px solid #003153;
   margin: 10px;
-}
-.location-card h3 {
-  margin: 0;
-  font-size: 18px;
-}
-.location-card p {
-  color: #b96d34;
-  font-weight: bold;
-}
 
-/*# sourceMappingURL=App.css.map */
+  h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  p {
+    color: #b96d34;
+    font-weight: bold;
+  }
+}
