@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://i.ibb.co/Z6HPGPj0/road-without-car.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #003153;
+}
+
+a {
+  text-decoration: none;
+  color: #003153;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #b96d34;
+}
+
+nav, .form, .car-section {
+  background-color: #dde0e9;
+}
+
+.footer {
+  background-color: #003153;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.location-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #003153;
+  margin: 10px;
+}
+
+.location-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.location-card p {
+  color: #b96d34;
+  font-weight: bold;
+}
+.footer {
+  background-color: #003153;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Ako zatreba na manjim ekranima */
+}
+
+.footer-left {
+  display: flex;
+  gap: 20px; /* razmak između itema */
+}
